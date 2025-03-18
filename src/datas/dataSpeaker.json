@@ -1,20 +1,20 @@
 [
   {
     "id": 1,
-    "name": "Nugroho Dwi Aji, S.Kom",
-    "title": "CEO",
-    "image": "/speaker1.webp"
+    "name": "Prof. Dr. Ir. Joko Lianto Buliali, M.Sc",
+    "title": "Guru Besar Institut Teknologi Sepuluh Nopember",
+    "image": "/prof-joko.png"
   },
   {
     "id": 2,
-    "name": "Nugroho Dwi Aji, S.Kom",
-    "title": "CEO",
-    "image": "/speaker1.webp"
+    "name": "Prof. Dr. Rer. Nat. Achmad Benny Mutiara",
+    "title": "Ketua Umum APTIKOM",
+    "image": "/prof-benny.png"
   },
   {
     "id": 3,
-    "name": "Nugroho Dwi Aji, S.Kom",
-    "title": "CEO",
-    "image": "/speaker1.webp"
+    "name": "Prof. Dr. Kusrini, M.Kom",
+    "title": "Guru Besar Ilmu Komputer Universitas Amikom Yogyakarta",
+    "image": "/prof-kusrini.png"
   }
 ]

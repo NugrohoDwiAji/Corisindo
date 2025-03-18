@@ -30,10 +30,10 @@ const Header = () => {
       icon: <ChevronDown />,
       action: () => toggleSubMenu("Kegiatan"),
       subMenu: [
-        { nama: "Seminas Nasional", url: "/kegiatan/:seminarNasional" },
-        { nama: "Competition", url: "/kegiatan/:competition" },
-        { nama: "Bimtek PS dan PT", url: "/kegiatan/:bimtek" },
-        { nama: "Bakernas Indoceiss", url: "/kegiatan/:bakernas" },
+        { nama: "Seminas Nasional", url: "/kegiatan/seminar" },
+        { nama: "Competition", url: "/kegiatan/competition" },
+        { nama: "Bimtek PS dan PT", url: "/kegiatan/bimtek" },
+        { nama: "Bakernas Indoceiss", url: "/kegiatan/rakernas" },
       ],
     },
     {
