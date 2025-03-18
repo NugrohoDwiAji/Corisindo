@@ -7,9 +7,7 @@ import { ArrowRightToLine } from "lucide-react";
 const Header = () => {
   const [isOpen, setisOpen] = useState(false);
   const [subActive, setsubActive] = useState(null);
-  const menuRef = useRef(null);
-  const subMenuRef = useRef(null);
-  const subMenuRefMd = useRef(null);
+  
   
   const toggleSubMenu = (menu) => {
     setsubActive(subActive === menu ? null : menu);
@@ -19,44 +17,44 @@ const Header = () => {
 
   const menu = [
     {
-      name: "Dashboard",
+      name: "DASHBOARD",
       url: "/",
       icon: "",
       action: () => navigate("/"),
       subMenu: [],
     },
     {
-      name: "Kegiatan",
+      name: "KEGIATAN",
       icon: <ChevronDown />,
-      action: () => toggleSubMenu("Kegiatan"),
+      action: () => toggleSubMenu("KEGIATAN"),
       subMenu: [
-        { nama: "Seminas Nasional", url: "/kegiatan/seminar" },
-        { nama: "Competition", url: "/kegiatan/competition" },
-        { nama: "Bimtek PS dan PT", url: "/kegiatan/bimtek" },
-        { nama: "Bakernas Indoceiss", url: "/kegiatan/rakernas" },
+        { nama: "SEMINAR NASIONAL", url: "/kegiatan/seminar" },
+        { nama: "COMPETITION", url: "/kegiatan/competition" },
+        { nama: "BIMTEK PS DAN PT", url: "/kegiatan/bimtek" },
+        { nama: "RAKERNAS INDOCEISS", url: "/kegiatan/rakernas" },
       ],
     },
     {
-      name: "Informasi Peserta",
+      name: "INFORMASI PESERTA",
       icon: <ChevronDown />,
-      action: () => toggleSubMenu("Informasi Peserta"),
+      action: () => toggleSubMenu("INFORMASI PESERTA"),
       subMenu: [
-        { nama: "Pendaftaran", url: "/informasipeserta/pendaftaran" },
-        { nama: "Tanggal Penting", url: "/informasipeserta/tanggalPeting" },
-        { nama: "Daftar Hotel", url: "/informasipeserta/daftarHotel" },
+        { nama: "PENDAFTARAN", url: "/informasipeserta/pendaftaran" },
+        { nama: "TANGGAL PETING", url: "/informasipeserta/tanggalPeting" },
+        { nama: "DAFTAR HOTEL", url: "/informasipeserta/daftarHotel" },
       ],
     },
     {
-      name: "Komite",
+      name: "KOMITE",
       icon: <ChevronDown />,
-      action: () => toggleSubMenu("Komite"),
+      action: () => toggleSubMenu("KOMITE"),
       subMenu: [
-        { nama: "Komite", url: "/komite/komite" },
-        { nama: "Tim Bidang Lomba", url: "/komite/timBidangLomba" },
+        { nama: "KOMITE", url: "/komite/komite" },
+        { nama: "TIM BIDANG LOMBA", url: "/komite/timBidangLomba" },
       ],
     },
     {
-      name: "Hubungi Kami",
+      name: "HUBUNGI KAMI",
       icon: "",
       action: () => navigate("/hubingiKami"),
       subMenu: [],
@@ -91,7 +89,7 @@ const Header = () => {
   // }, []);
 
   return (
-    <header className="flex w-ful h-16 justify-between items-center  px-5 ">
+    <header className="flex w-ful h-16 justify-between items-center  px-5  fixed z-50 bg-white top-0 right-0 left-0 shadow-b-lg">
       <img src="/logo_corisindo.png" alt="" className="w-20" />
       <nav className="md:flex items-center h-full w-full hidden gap-4 justify-end relative ">
         {menu.map((item, index) => (
@@ -100,7 +98,7 @@ const Header = () => {
               key={index}
               onClick={item.action}
               className={
-                "flex gap-2 relative before:absolute before:bottom-0 before:left-1/2 before:w-0 before:h-[2px] before:transition-all before:duration-300 hover:before:w-full hover:before:left-0 before:bg-blue-950"
+                "flex gap-2 items-center relative before:absolute before:bottom-0 before:left-1/2 before:w-0 before:h-[2px] before:transition-all before:duration-300 hover:before:w-full hover:before:left-0 before:bg-blue-950 text-xs lg:text-sm font-semibold"
               }
               to={item.url}
             >
@@ -109,10 +107,10 @@ const Header = () => {
             </NavLink>
             {subActive === item.name && (
               <div
-                className={`ml-3 py-4 px-2 rounded-md bg-gray-100 flex flex-col gap-2 absolute top-16`}
+                className={`ml-3 py-4 px-2 rounded-md bg-gray-100 flex flex-col gap-2 absolute top-16 text-xs lg:text-sm font-semibold`}
               >
                 {item.subMenu.map((submenu, index) => (
-                  <NavLink to={submenu.url}  key={index} className="bg-gray-200 py-1 px-2 rounded-md hover:scale-110 trantition ease-in-out duration-300 hover:bg-white hover:border hover:border-blue-950 hover:rounded-md">
+                  <NavLink to={submenu.url}  key={index} className="bg-gray-200 py-1 px-2 rounded-md hover:scale-110 trantition ease-in-out duration-300 hover:bg-white hover:border hover:border-blue-950 hover:rounded-md text-xs lg:text-sm font-semibold">
                     {submenu.nama}
                   </NavLink>
                 ))}
@@ -120,8 +118,8 @@ const Header = () => {
             )}
           </div>
         ))}
-        <button className="flex items-center gap-2 bg-blue-950 text-white px-4 py-2 rounded-md hover:scale-105 trantition ease-in-out duration-300 hover:bg-white hover:border hover:border-blue-950 hover:rounded-md hover:text-blue-950">
-          Daftar
+        <button className="flex items-center gap-2 bg-blue-950 text-white px-4 py-2 rounded-md hover:scale-105 trantition ease-in-out duration-300 hover:bg-white hover:border hover:border-blue-950 hover:rounded-md hover:text-blue-950 text-xs lg:text-sm font-semibold">
+          DAFTAR
           <ArrowRightToLine />
         </button>
       </nav>
@@ -140,7 +138,7 @@ const Header = () => {
               <NavLink
                 key={index}
                 className={
-                  "flex justify-between bg-gray-100 py-1 px-2 rounded-md w-full hover:scale-105 trantition ease-in-out duration-300 hover:bg-white hover:border hover:border-blue-950 hover:rounded-md"
+                  "flex justify-between bg-gray-100 py-1 px-2 rounded-md w-full hover:scale-105 trantition ease-in-out duration-300 hover:bg-white hover:border hover:border-blue-950 hover:rounded-md text-xs font-semibold"
                 }
                 onClick={item.action}
               >
@@ -152,7 +150,7 @@ const Header = () => {
                   className={`ml-3 py-1 px-2 rounded-b-md bg-gray-100 flex flex-col gap-2`}
                 >
                   {item.subMenu.map((submenu, index) => (
-                    <NavLink to={submenu.url} key={index} className="bg-gray-200 py-1 px-2 rounded-md hover:scale-110 trantition ease-in-out duration-300 hover:bg-white hover:border hover:border-blue-950 hover:rounded-md">
+                    <NavLink to={submenu.url} key={index} className="bg-gray-200 py-1 px-2 rounded-md hover:scale-110 trantition ease-in-out duration-300 hover:bg-white hover:border hover:border-blue-950 hover:rounded-md text-xs font-semibold">
                       {submenu.nama}
                     </NavLink>
                   ))}
@@ -160,8 +158,8 @@ const Header = () => {
               )}
             </div>
           ))}
-          <button className="flex items-center gap-2 bg-blue-950 text-white px-4 py-2 rounded-md hover:scale-105 trantition ease-in-out duration-300 hover:bg-white hover:border hover:border-blue-950 hover:rounded-md hover:text-blue-950">
-            Daftar
+          <button className="flex items-center gap-2 bg-blue-950 text-white px-4 py-2 rounded-md hover:scale-105 trantition ease-in-out duration-300 hover:bg-white hover:border hover:border-blue-950 hover:rounded-md hover:text-blue-950 text-xs font-semibold">
+            DAFTAR
             <ArrowRightToLine />
           </button>
         </nav>
