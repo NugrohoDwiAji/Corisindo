@@ -1,15 +1,33 @@
 [
     {
       "id": 1,
-      "name": "Prof. Dra. Sri Hartati, M.Sc., Ph.D",
-      "title": "Ketua Umum IndoCEISS",
-      "image": "/sambutan-1.png"
+      "name": "xxxxxxxxxxx",
+      "title": "Ketua Panitia Corisindo 2025",
+      "image": "/"
     },
     {
       "id": 2,
-      "name": "Dr. Ir. Djoko Soetarno, DEA",
-      "title": "Pembina CORIS",
-      "image": "/sambutan-2.png"
+      "name": "Prof. Dr. Ir. Anthony Anggrawan, M.T., Ph.D",
+      "title": "Rektor Universitas Bumigora",
+      "image": "/sambutan-2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Bob Subhan Riza, S.T., M.Kom",
+      "title": "Ketua Umum CORIS",
+      "image": "/"
+    },
+    {
+      "id": 4,
+      "name": "Dr. Po. Abas Sunarya, M.Si",
+      "title": "Penasehat CORIS",
+      "image": "/"
+    },
+    {
+      "id": 5,
+      "name": "Prof. Dra. Sri Hartati, M.Sc., Ph.D",
+      "title": "Ketua Umum IndoCEISS",
+      "image": "/sambutan-1.png"
     }
   ]
   

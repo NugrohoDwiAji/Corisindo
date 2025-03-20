@@ -9,6 +9,7 @@ import { Facebook } from "lucide-react";
 import { Youtube } from "lucide-react";
 import { Instagram } from "lucide-react";
 
+
 const menu = [
   { name: "Seminar Nasional", url: "/seminar", icon: <ChevronRight /> },
   { name: "Competition", url: "/competition", icon: <ChevronRight /> },

@@ -11,13 +11,14 @@ import dataCarousel from "../datas/dataCarousel.json";
 import Line from "../components/elements/Line";
 import { ArrowRightFromLine } from "lucide-react";
 import CardPendaftaran from "../components/CardPendaftaran";
+import { Link } from "react-router-dom";
 
 const Dashboard = () => {
   return (
     <PrimaryLayout>
       {/* Speaker */}
       <div className="flex flex-col items-center gap-10">
-        <TitleLine title="KEYNOTE SPEAKER" />
+        <TitleLine title="NARASUMBER" />
         <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center md:gap-14 gap-10">
           {dataSpeaker.map((item) => (
             <CardSpeaker
@@ -50,8 +51,8 @@ const Dashboard = () => {
         <div className="mb-10">
           <Carousel>
             {dataCarousel.map((item) => (
-              <center>
-                <CardCarousel key={item.id} img={item.img} />
+              <center key={item.id}>
+                <CardCarousel  img={item.img} />
               </center>
             ))}
           </Carousel>
@@ -71,14 +72,14 @@ const Dashboard = () => {
               berbagai peneliti, akademisi, praktisi, dan pengusaha bisnis untuk
               menciptakan peluang penelitian dan pengabdian masyarakat bagi
               perkembangan dunia industri. Pagelaran SEMNAS Corisindo oleh
-              Universitas Teknologi Bandung, CORIS dan INDOCEISS pada hari Sabtu
-              tanggal <span className="text-blue-900">31 Agustus 2024</span>, bertempat di Harris Hotel & Conventions
-              Festival Citylink Bandung, Indonesia, bertemakan <span className="text-blue-900">“Pengembangan
-              Dunia Industri Memanfaatkan Teknologi Artificial Intellegence”</span>
+              Universitas Bumigora, CORIS dan INDOCEISS pada hari Sabtu
+              tanggal <span className="font-semibold text-blue-950">Jumat, 12 September 2025,</span>{" "}bertempat di Harris Hotel & Conventions
+              Festival Citylink Bandung, Indonesia, bertemakan <span className="text-blue-950 font-semibold">“Pengembangan
+              Dunia Industri Memanfaatkan Teknologi Artificial Intellegence”...</span>
             </p>
-            <button className="flex items-center gap-2 text-blue-950 w-fit border rounded-lg font-semibold px-4 py-2 hover:bg-blue-950 hover:text-white hover:scale-110 transition duration-300 ease-in-out ">
+            <Link to={"/kegiatan/seminar#tentang"} className="flex items-center gap-2 text-blue-950 w-fit border rounded-lg font-semibold px-4 py-2 hover:bg-blue-950 hover:text-white hover:scale-110 transition duration-300 ease-in-out ">
               Selengkapnya <ArrowRightFromLine />
-            </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -87,8 +88,8 @@ const Dashboard = () => {
       <div className="flex flex-col  items-center gap-10 mt-16">
         <TitleLine title="PENDAFTARAN" />
         <div className=" flex flex-col md:flex-row md:justify-evenly md:w-full gap-8">
-          <CardPendaftaran img={"/ilustrasi-seminar.jpg"} title={"Seminar Nasional"} />
-          <CardPendaftaran img={"/ilustrasi-competition.jpg"} title={"Competition"} />
+          <CardPendaftaran img={"/ilustrasi-seminar.jpg"} title={"Seminar Nasional"} url={"/kegiatan/seminar"}/>
+          <CardPendaftaran img={"/ilustrasi-competition.jpg"} title={"Competition"} url={"/kegiatan/competition"} />
         </div>
       </div>
     </PrimaryLayout>
