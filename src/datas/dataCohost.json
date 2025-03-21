@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "img": "/ubg.png"
+    "img": "/img/ubg.png"
   },
   {
     "id": 2,
-    "img": "/coris.png"
+    "img": "/img/coris.png"
   },
   {
     "id": 3,
-    "img": "/indoceiss.png"
+    "img": "/img/indoceiss.png"
   }
 ]

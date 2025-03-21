@@ -8,14 +8,15 @@ export default function CardPendaftaran({img, title, url}) {
 
   useEffect(() => {
     AOS.init({
-      duration: 1000, // Durasi animasi dalam milidetik
+      duration: 3000, // Durasi animasi dalam milidetik
       once: true, // Animasi hanya berjalan sekali
       easing: "ease-in-out", // Efek transisi animasi
     });
   }, []);
 
   return (
-    <div data-aos="zoom-in-left" className='shadow-lg rounded-lg w-60 md:w-72 lg:w-[24rem]'>
+    <div data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom" className='shadow-lg rounded-lg w-60 md:w-72 lg:w-[24rem]'>
         <img src={img} alt="" className='h-48 md:h-56 w-60 md:w-72 lg:w-[24rem] lg:h-[19rem] bg-rose-300 object-cover rounded-t-xl mb-2' />
         <div className='flex flex-col gap-3 lg:gap-5 lg:px-5 lg:pb-5 px-4 pb-4'>
         <h1 className='font-semibold md:font-bold md:text-xl lg:text-2xl'>{title}</h1>

@@ -3,31 +3,31 @@
       "id": 1,
       "name": "xxxxxxxxxxx",
       "title": "Ketua Panitia Corisindo 2025",
-      "image": "/"
+      "image": "/img/sambutan-1"
     },
     {
       "id": 2,
       "name": "Prof. Dr. Ir. Anthony Anggrawan, M.T., Ph.D",
       "title": "Rektor Universitas Bumigora",
-      "image": "/sambutan-2.jpg"
+      "image": "/img/sambutan-2.jpg"
     },
     {
       "id": 3,
       "name": "Dr. Bob Subhan Riza, S.T., M.Kom",
       "title": "Ketua Umum CORIS",
-      "image": "/"
+      "image": "/img/sambutan-3.png"
     },
     {
       "id": 4,
       "name": "Dr. Po. Abas Sunarya, M.Si",
       "title": "Penasehat CORIS",
-      "image": "/"
+      "image": "/img/sambutan-4.jpg"
     },
     {
       "id": 5,
       "name": "Prof. Dra. Sri Hartati, M.Sc., Ph.D",
       "title": "Ketua Umum IndoCEISS",
-      "image": "/sambutan-1.png"
+      "image": "/img/sambutan-5.png"
     }
   ]
   

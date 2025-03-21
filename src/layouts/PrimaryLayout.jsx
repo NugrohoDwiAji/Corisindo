@@ -10,7 +10,7 @@ const PrimaryLayout = ({ children }) => {
     <div>
       <Header />
       <div className="mt-16">
-        <img src="/banner.jpg" alt="" className="bg-cover w-full" />
+        <img src="/img/banner.jpg" alt="" className="bg-cover w-full" />
       </div>
       <div className="px-5 py-10">{children}</div>
 

@@ -101,12 +101,12 @@ const Dashboard = () => {
         <TitleLine title="PENDAFTARAN" />
         <div className=" flex flex-col md:flex-row md:justify-evenly md:w-full gap-8">
           <CardPendaftaran
-            img={"/ilustrasi-seminar.jpg"}
+            img={"/img/ilustrasi-seminar.jpg"}
             title={"Seminar Nasional"}
             url={"/kegiatan/seminar"}
           />
           <CardPendaftaran
-            img={"/ilustrasi-competition.jpg"}
+            img={"/img/ilustrasi-competition.jpg"}
             title={"Competition"}
             url={"/kegiatan/competition"}
           />

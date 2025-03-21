@@ -75,7 +75,7 @@ const Header = () => {
 
 
     <header className="flex w-ful h-16 justify-between items-center  px-5  fixed z-50 bg-white top-0 right-0 left-0 shadow-b-lg">
-      <img src="/logo_corisindo.png" alt="" className="w-20" />
+      <img src="/img/logo_corisindo.png" alt="" className="w-20" />
       <nav className="md:flex items-center h-full w-full hidden gap-4 justify-end relative ">
         {menu.map((item, index) => (
           <div  key={index}>

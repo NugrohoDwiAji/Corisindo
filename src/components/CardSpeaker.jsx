@@ -9,7 +9,7 @@ export default function CardSpeaker({img, name, jabatan}) {
       AOS.init({
         duration: 3000, // Durasi animasi dalam milidetik
         once: true, // Animasi hanya berjalan sekali
-         // Efek transisi animasi
+        easing: "ease-in-out", // Efek transisi animasi
       });
     }, []);
 

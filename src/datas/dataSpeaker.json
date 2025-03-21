@@ -4,12 +4,12 @@
     "id": 1,
     "name": "Prof. Dr. Rer. Nat. Achmad Benny Mutiara",
     "title": "Ketua Umum APTIKOM",
-    "image": "/prof-benny.png"
+    "image": "/img/prof-benny.png"
   },
   {
     "id": 2,
     "name": "Dr. Ir. Bambang Krismono T., S.Kom., M.Kom",
     "title": "Kepala BPM",
-    "image": "/bambang-krismono.png"
+    "image": "/img/bambang-krismono.png"
   }
 ]
