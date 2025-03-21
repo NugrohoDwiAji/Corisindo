@@ -6,7 +6,7 @@ export default function CardHost({img}) {
 
   useEffect(() => {
     AOS.init({
-      duration: 3000, // Durasi animasi dalam milidetik
+      duration: 2000, // Durasi animasi dalam milidetik
       once: true, // Animasi hanya berjalan sekali
       easing: "ease-in-out", // Efek transisi animasi
     });

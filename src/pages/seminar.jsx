@@ -5,7 +5,25 @@ import TitleLine from "../components/TitleLine";
 import CardTema from "../components/CardTema";
 import { Database } from "lucide-react";
 import { CodeXml } from "lucide-react";
-import { Microchip, Library, Smartphone, DatabaseBackup,Image, Video, ChartNoAxesCombined, Presentation, Lightbulb, Landmark, Cpu, ShoppingBag, ChartColumn, ShieldAlert, Settings, SquareTerminal, Users} from "lucide-react";
+import {
+  Microchip,
+  Library,
+  Smartphone,
+  DatabaseBackup,
+  Image,
+  Video,
+  ChartNoAxesCombined,
+  Presentation,
+  Lightbulb,
+  Landmark,
+  Cpu,
+  ShoppingBag,
+  ChartColumn,
+  ShieldAlert,
+  Settings,
+  SquareTerminal,
+  Users,
+} from "lucide-react";
 import LinkBar from "../components/LinkBar";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
@@ -28,89 +46,89 @@ const dataTema = [
   },
   {
     id: 4,
-    icon:<Library size={50}/>,
+    icon: <Library size={50} />,
     title: "Information System",
   },
   {
     id: 5,
-    icon:<Smartphone size={50}/>,
+    icon: <Smartphone size={50} />,
     title: "Mobile Apps",
   },
   {
     id: 6,
-    icon:<DatabaseBackup size={50}/>,
+    icon: <DatabaseBackup size={50} />,
     title: "Data Science",
   },
   {
     id: 7,
-    icon:<Image size={50}/>,
+    icon: <Image size={50} />,
     title: "Digital Signal & Image Processing",
   },
   {
     id: 8,
-    icon:<Video size={50}/>,
+    icon: <Video size={50} />,
     title: "Multimedia",
   },
   {
     id: 9,
-    icon:<ChartNoAxesCombined size={50}/>,
+    icon: <ChartNoAxesCombined size={50} />,
     title: "Branding",
   },
   {
     id: 10,
-    icon:<Presentation size={50}/>,
+    icon: <Presentation size={50} />,
     title: "Innovation",
   },
   {
     id: 11,
-    icon:<Lightbulb size={50}/>,
+    icon: <Lightbulb size={50} />,
     title: "Creative Design Management",
   },
   {
     id: 12,
-    icon:<Landmark size={50}/>,
+    icon: <Landmark size={50} />,
     title: "E-Government",
   },
   {
     id: 13,
-    icon:<Landmark size={50}/>,
+    icon: <Landmark size={50} />,
     title: "IT-Government",
   },
   {
     id: 14,
-    icon:<Cpu size={50}/>,
+    icon: <Cpu size={50} />,
     title: "IT-Management",
   },
   {
     id: 15,
-    icon:<ShoppingBag size={50}/>,
+    icon: <ShoppingBag size={50} />,
     title: "E-Business & E-Commerce",
   },
   {
     id: 16,
-    icon:<ChartColumn size={50}/>,
+    icon: <ChartColumn size={50} />,
     title: "ERP, SCM & SCM",
   },
   {
     id: 17,
-    icon:<ShieldAlert size={50}/>,
+    icon: <ShieldAlert size={50} />,
     title: "Cyber Scurity & Networking",
   },
   {
     id: 18,
-    icon:<Settings size={50}/>,
+    icon: <Settings size={50} />,
     title: "Otomasi Industri",
   },
   {
     id: 19,
-    icon:<SquareTerminal size={50}/>,
+    icon: <SquareTerminal size={50} />,
     title: "Area Aplikasi Teknologi Informasi",
   },
   {
     id: 19,
-    icon:<Users size={50}/>,
+    icon: <Users size={50} />,
     title: "Hasil Dari Pengabdian Masyarakat",
-  }
+  },
 ];
 
 const informasiPendaftaran = [
@@ -152,39 +170,50 @@ export default function Seminar() {
         </div>
         <div id="tentang">
           <p className="indent-7 text-justify mb-5 text-gray-800">
-            Selamat datang di website resmi Seminar Nasional Penelitian dan
-            Pengabdian Masyarakat (SEMNAS CORISINDO). Kami sangat senang dapat
-            menyambut Anda di acara yang akan menjadi panggung bagi para
-            pemikir, inovator, dan praktisi terbaik dalam dunia industri yang
-            berkembang pesat ini.
+            Perguruan tinggi sebagai penyedia sumber daya manusia industri harus
+            beradaptasi untuk memenuhi kebutuhan kompetensi transformasi digital
+            di berbagai sektor, khususnya karya ilmiah. Berbagai inovasi harus
+            dilakukan untuk meningkatkan sumber daya manusia yang sesuai dengan
+            kebutuhan industri 4.0. Hal mendasar yang perlu dilakukan perguruan
+            tinggi adalah mereview dan mendesain ulang kurikulum, mendorong
+            program mobilitas bagi talenta asing, bekerjasama dengan
+            stakeholders termasuk industri dan pemerintah sebagai pengguna
+            lulusan perguruan tinggi.
           </p>
           <p className="indent-7 text-justify mb-5 text-gray-800">
-            Pagelaran SEMNAS Corisindo oleh{" "}
-            <span className="font-bold">
-              Universitas Universitas Bumigora, CORIS dan INDOCEISS
+            Konferensi ini bertujuan untuk menyediakan forum utama bagi dunia
+            karya ilmiah untuk diskusi dan debat tentang Potensi Transformasi
+            Digital, Interdisipliner, standardisasi teknologi terkait, dan
+            dampak teknologi tersebut terhadap masyarakat dan budaya selama
+            pandemi ini. Konferensi tersebut mempertemukan para peneliti,
+            pembuat kebijakan, pengembang, pengguna, dan perusahaan komersial,
+            siapa pun yang tertarik dengan Web dan apa yang ditawarkannya.
+          </p>
+          <p className="indent-7 text-justify mb-5 text-gray-800">
+            <span className="font-semibold">SEMNAS CORISINDO 2025</span>{" "}
+            merupakan platform Seminar Nasional yang menampilkan artikel asli
+            dari berbagai peneliti, akademisi, praktisi, dan pengusaha bisnis
+            untuk menciptakan peluang penelitian yang berorientasi global di era
+            pandemi dengan memanfaatkan teknologi transformasi digital.
+          </p>
+          <p className="indent-7 text-justify mb-5 text-gray-800">
+            Pagelaran SEMNAS Corisindo 2025 oleh Universitas Bumigora,{" "}
+            <span className="font-semibold">CORIS</span>
+            dan <span className="font-semibold">INDOCEISS</span> pada tanggal{" "}
+            <span className="font-semibold">12 September 2025,</span> bertempat
+            di Mataram Lombok, Indonesia, bertema{" "}
+            <span className="font-semibold">
+              “Optimalisasi Artificial Intelligence (AI) dan Big Data Dalam
+              Pengambilan Keputusan”.
             </span>{" "}
-            diselenggarakan secara Hybrid (Daring dan Luring) pada hari{" "}
-            <span className="font-bold">Jumat, 12 September 2025,</span>{" "}
-            bertempat di Universitas Bumigora, bertema “Pengembangan Dunia
-            Industri Memanfaatkan Teknologi Artificial Intelligence (AI)”.
-          </p>
-          <p className="indent-7 text-justify mb-5 text-gray-800">
-            Seiring dengan kemajuan teknologi AI yang tak terbendung,
-            industri-industri di seluruh dunia mengalami perubahan revolusioner.
-            Dari otomatisasi proses produksi hingga pengembangan solusi cerdas
-            untuk meningkatkan efisiensi dan kualitas, AI telah menjadi
-            pendorong utama transformasi industri di era digital ini. Dengan
-            bangga kami mengundang para ahli, akademisi, praktisi, dan mahasiswa
-            untuk bergabung dalam diskusi mendalam tentang peran AI dalam
-            membentuk masa depan industri. Bersama-sama, kita akan menjelajahi
-            berbagai topik menarik, mulai dari implementasi AI dalam manufaktur
-            dan logistik hingga penggunaan AI untuk analisis data besar dan
-            prediksi tren pasar. Melalui website kami, Anda akan dapat mengakses
-            informasi terkini tentang jadwal acara, daftar pembicara terkemuka,
-            dan topik-topik menarik yang akan dibahas dalam sesi-sesi seminar.
-            Selain itu, kami juga menyediakan ruang untuk pendaftaran peserta
-            dan submission artikel bagi mereka yang ingin berbagi penelitian dan
-            pengabdian masyarakat.
+            Tahun ini,{" "}
+            <span className="font-semibold">SEMNAS CORISINDO 2025</span> akan
+            diselenggarakan dalam Virtual Conference dimana akan ada presentasi
+            online dari 3 keynote speaker yang fantastis, dilanjutkan dengan
+            presentasi makalah peserta. Paper yang dinyatakan diterima dan
+            dipresentasikan akan diterbitkan pada prosiding, dan beberapa paper
+            yang terpilih (selected paper) akan diterbitkan pada Jurnal
+            terakreditasi SINTA.
           </p>
         </div>
 
@@ -210,7 +239,10 @@ export default function Seminar() {
         <hr className="my-10 text-gray-400" />
 
         {/* Benefit */}
-        <div className="justify-center flex flex-col items-center mt-10">
+        <div
+          id="daftar"
+          className="justify-center flex flex-col items-center mt-10"
+        >
           <TitleLine title="Benefit" />
           <div>
             <ul className="list-disc mt-5 font-semibold text-lg md:text-xl lg:text-2xl">
@@ -263,14 +295,19 @@ export default function Seminar() {
           </div>
         </div>
 
-
-{/* submission and template */}
+        {/* submission and template */}
         <hr className="my-10 text-gray-400" />
         <div className="justify-center flex flex-col items-center mt-10">
           <TitleLine title="Submission and Template" />
           <div className="flex mt-5 md:gap-10 lg:gap-16">
-            <LinkBar url="\file\Template-Penelitian-Semnas-Corisindo.docx" title="Template Artikel" />
-            <LinkBar url="" title="Submission Artikel" />
+            <LinkBar
+              url="\file\Template-Penelitian-Semnas-Corisindo.docx"
+              title="Template Artikel"
+            />
+            <LinkBar
+              url="https://journal.universitasbumigora.ac.id/index.php/corisindo2025"
+              title="Submission Artikel"
+            />
           </div>
         </div>
       </LayoutKegiatan>

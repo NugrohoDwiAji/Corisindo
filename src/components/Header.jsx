@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { PanelTopOpen } from "lucide-react";
-import { NavLink, Route, useNavigate } from "react-router-dom";
+import { NavLink, Route, useNavigate, Link } from "react-router-dom";
 import { ChevronDown } from "lucide-react";
 import { ArrowRightToLine } from "lucide-react";
 import { useLocation} from "react-router-dom";
@@ -111,10 +111,10 @@ const Header = () => {
             )}
           </div>
         ))}
-        <button className="flex items-center gap-2 bg-blue-950 text-white px-4 py-2 rounded-md hover:scale-105 trantition ease-in-out duration-300 hover:bg-white hover:border hover:border-blue-950 hover:rounded-md hover:text-blue-950 text-xs lg:text-sm font-semibold">
+        <NavLink to="/kegiatan/seminar#daftar" className="flex items-center gap-2 bg-blue-950 text-white px-4 py-2 rounded-md hover:scale-105 trantition ease-in-out duration-300 hover:bg-white hover:border hover:border-blue-950 hover:rounded-md hover:text-blue-950 text-xs lg:text-sm font-semibold">
           DAFTAR
           <ArrowRightToLine />
-        </button>
+        </NavLink>
       </nav>
 
 
@@ -159,10 +159,10 @@ const Header = () => {
               )}
             </div>
           ))}
-          <button className="flex items-center gap-2 bg-blue-950 text-white px-4 py-2 rounded-md hover:scale-105 trantition ease-in-out duration-300 hover:bg-white hover:border hover:border-blue-950 hover:rounded-md hover:text-blue-950 text-xs font-semibold">
+          <NavLink to="/kegiatan/seminar#daftar" className="flex items-center gap-2 bg-blue-950 text-white px-4 py-2 rounded-md hover:scale-105 trantition ease-in-out duration-300 hover:bg-white hover:border hover:border-blue-950 hover:rounded-md hover:text-blue-950 text-xs font-semibold">
             DAFTAR
             <ArrowRightToLine />
-          </button>
+          </NavLink>
         </nav>
       </div>
     </header>
