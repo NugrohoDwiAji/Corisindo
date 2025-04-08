@@ -305,7 +305,7 @@ export default function Seminar() {
               title="Template Artikel"
             />
             <LinkBar
-              url="https://journal.universitasbumigora.ac.id/index.php/corisindo2025"
+              url="https://bit.ly/CORISINDO2025"
               title="Submission Artikel"
             />
           </div>

@@ -103,7 +103,7 @@ const Dashboard = () => {
           <CardPendaftaran
             img={"/img/ilustrasi-seminar.jpg"}
             title={"Seminar Nasional"}
-            url={"/kegiatan/seminar"}
+            url={"https://bit.ly/CORISINDO2025"}
           />
           <CardPendaftaran
             img={"/img/ilustrasi-competition.jpg"}

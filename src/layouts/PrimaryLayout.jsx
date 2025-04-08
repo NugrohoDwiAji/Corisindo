@@ -27,14 +27,14 @@ const PrimaryLayout = ({ children }) => {
 
 
       {/* HOST */}
-      <div className="flex flex-col items-center mt-14">
+      {/* <div className="flex flex-col items-center mt-14">
         <TitleLine title="HOST" />
         <div className="flex flex-wrap justify-evenly gap-5 items-center mt-10 mb-10">
           {dataHost.map((item) => (
             <CardHost key={item.id} img={item.img} />
           ))}
         </div>
-      </div>
+      </div> */}
       <Footer />
     </div>
   );
