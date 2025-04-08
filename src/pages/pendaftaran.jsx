@@ -24,12 +24,12 @@ const informasiPendaftaran = [
     {
       id: 2,
       title: "Contact Person ",
-      value: "xxxxxxx",
+      value: "Baiq Yulia Hasni Pratiwi, S.Si., M.Sc",
     },
     {
       id: 3,
       title: "Phone ",
-      value: "xxxx-xxxx-xxxx",
+      value: "+62 8810-3839-1415",
     },
   ];
 
@@ -43,7 +43,7 @@ export default function Pendaftaran() {
             <li>
               Pendaftaran SEMNAS CORISINDOO (Peserta Pemakalah dan
               Non-Pemakalah) dapat dilakukan pada link berikut:{" "}
-              <Link to={"#"} className="text-blue-600">
+              <Link to={"#"} className="text-blue-600 font-semibold">
                 Klik Di Sini
               </Link>
             </li>
@@ -110,12 +110,12 @@ export default function Pendaftaran() {
         <div className="lg:flex justify-between">
           <div className="flex flex-col items-center ">
             <TitleLine title="Informasi Pendaftaran" />
-            <div className="font-semibold mt-2 md:text-xl">
+            <div className="font-semibold mt-2 text-sm md:text-xl">
               <table className=" w-full text-wrap">
                 <tbody>
                   {informasiPendaftaran.map((item) => (
                     <tr key={item.id}>
-                      <td className="py-1 w-3 max">{item.title}</td>
+                      <td className="py-1 w-3">{item.title}</td>
                       <td className="px-1">:</td>
                       <td className="text-wrap w-20 ">{item.value}</td>
                     </tr>

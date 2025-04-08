@@ -18,7 +18,7 @@ const Dashboard = () => {
     <PrimaryLayout>
       {/* Speaker */}
       <div className="flex flex-col items-center gap-10">
-        <TitleLine title="NARASUMBER" />
+        <TitleLine title="KEYNOTE SPEAKER" />
         <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center md:gap-14 gap-10">
           {dataSpeaker.map((item) => (
             <CardSpeaker

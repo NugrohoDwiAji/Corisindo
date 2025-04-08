@@ -140,12 +140,12 @@ const informasiPendaftaran = [
   {
     id: 2,
     title: "Contact Person ",
-    value: "xxxxxxx",
+    value: "Baiq Yulia Hasni Pratiwi, S.Si., M.Sc",
   },
   {
     id: 3,
     title: "Phone ",
-    value: "xxxx-xxxx-xxxx",
+    value: "+62 8810-3839-1415",
   },
 ];
 
@@ -164,9 +164,9 @@ export default function Seminar() {
     <PrimaryLayout>
       <LayoutKegiatan title={"Seminar Nasional"}>
         <div className="flex justify-center my-5">
-          <button className="bg-blue-950 text-white py-4 px-7 rounded-lg font-semibold hover:scale-110 hover:border-blue-950 hover:bg-white hover:text-blue-950 transition duration-300 ease-in-out hover:border-2">
+          <a href="/img/banner.png" download={"Poster-Seminar.png"} className="bg-blue-950 text-white py-4 px-7 rounded-lg font-semibold hover:scale-110 hover:border-blue-950 hover:bg-white hover:text-blue-950 transition duration-300 ease-in-out hover:border-2">
             Download Poster
-          </button>
+          </a>
         </div>
         <div id="tentang">
           <p className="indent-7 text-justify mb-5 text-gray-800">
@@ -245,7 +245,7 @@ export default function Seminar() {
         >
           <TitleLine title="Benefit" />
           <div>
-            <ul className="list-disc mt-5 font-semibold text-lg md:text-xl lg:text-2xl">
+            <ul className="list-disc mt-5 ml-5 font-semibold  md:text-xl lg:text-2xl">
               <li>E-Certificate</li>
               <li>Paper terpilih akan terbit di Jurnal Terindeks SINTA</li>
               <li>Best Paper dan Best Presenter</li>
@@ -259,7 +259,7 @@ export default function Seminar() {
         <div className="lg:flex justify-between">
           <div className="flex flex-col items-center ">
             <TitleLine title="Informasi Pendaftaran" />
-            <div className="font-semibold mt-2 md:text-xl">
+            <div className="font-semibold mt-2 text-sm md:text-xl">
               <table className=" w-full text-wrap">
                 <tbody>
                   {informasiPendaftaran.map((item) => (

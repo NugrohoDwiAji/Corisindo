@@ -12,12 +12,12 @@ const informasiPendaftaranSeminar = [
   {
     id: 2,
     title: "Contact Person ",
-    value: "xxxxxxx",
+    value: "Baiq Yulia Hasni Pratiwi, S.Si., M.Sc",
   },
   {
     id: 3,
     title: "Phone ",
-    value: "xxxx-xxxx-xxxx",
+    value: "+62 8810-3839-1415",
   },
 ];
 
@@ -35,7 +35,7 @@ const informasiPendaftaranLomba = [
   {
     id: 3,
     title: "Phone ",
-    value: "xxxx-xxxx-xxxx",
+    value: "+62 819-1660-8880",
   },
 ];
 

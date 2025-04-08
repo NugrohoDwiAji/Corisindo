@@ -6,6 +6,7 @@ import Seminar from "./pages/seminar"
 import Pendaftaran from "./pages/pendaftaran"
 import TanggalPenting from "./pages/tanggalPenting"
 import HubungiKami from "./pages/hubungiKami"
+import NotFound from "./pages/notFound"
 function App() {
 
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/informasipeserta/pendaftaran" element={<Pendaftaran/>} />
           <Route path="/informasipeserta/tanggalpenting" element={<TanggalPenting/>} />
           <Route path="/hubungikami" element={<HubungiKami/>} />
+          <Route path="*" element={<NotFound/>} />
         </Routes>
       </Router>
     </>

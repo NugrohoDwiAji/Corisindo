@@ -1,9 +1,9 @@
 [
     {
       "id": 1,
-      "name": "xxxxxxxxxxx",
+      "name": "Dr. Dadang Priyanto, M.Kom.",
       "title": "Ketua Panitia Corisindo 2025",
-      "image": "/img/sambutan-1"
+      "image": "/img/Dr._Dadang_Priyanto__M.Kom.png"
     },
     {
       "id": 2,
@@ -12,22 +12,22 @@
       "image": "/img/sambutan-2.jpg"
     },
     {
-      "id": 3,
+      "id": 4,
+      "name": "Prof. Dra. Sri Hartati, M.Sc., Ph.D",
+      "title": "Ketua Umum IndoCEISS",
+      "image": "/img/sambutan-5.png"
+    },
+    {
+      "id": 5,
       "name": "Dr. Bob Subhan Riza, S.T., M.Kom",
       "title": "Ketua Umum CORIS",
       "image": "/img/sambutan-3.png"
     },
     {
-      "id": 4,
-      "name": "Dr. Po. Abas Sunarya, M.Si",
-      "title": "Penasehat CORIS",
-      "image": "/img/sambutan-4.jpg"
-    },
-    {
-      "id": 5,
-      "name": "Prof. Dra. Sri Hartati, M.Sc., Ph.D",
-      "title": "Ketua Umum IndoCEISS",
-      "image": "/img/sambutan-5.png"
+      "id": 6,
+      "name": "Dr. Ir. Djoko Soetarno, Dea.",
+      "title": "Pembina CORIS",
+      "image": "/img/Djoko-Soetarno.png"
     }
   ]
   

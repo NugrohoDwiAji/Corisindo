@@ -24,7 +24,6 @@ const dataJuara = [
   {
     id: 1,
     name: "Juara 1",
-    biaya: "Rp.xxx.xxx,-",
     benefit1: "e-certificate",
     benefit2: "Paper terpilih akan terbit di Jurnal Terindeks SINTA",
     benefit3: "Best Paper dan Best Presenter",
@@ -32,7 +31,6 @@ const dataJuara = [
   {
     id: 2,
     name: "Juara 2",
-    biaya: "Rp.xxx.xxx,-",
     benefit1: "e-certificate",
     benefit2: "Paper terpilih akan terbit di Jurnal Terindeks SINTA",
     benefit3: "Best Paper dan Best Presenter",
@@ -40,7 +38,6 @@ const dataJuara = [
   {
     id: 3,
     name: "Juara 3",
-    biaya: "Rp.xxx.xxx,-",
     benefit1: "e-certificate",
     benefit2: "Paper terpilih akan terbit di Jurnal Terindeks SINTA",
     benefit3: "Best Paper dan Best Presenter",
@@ -61,12 +58,12 @@ const informasiPendaftaran = [
   {
     id: 3,
     title: "Phone ",
-    value: "xxxx-xxxx-xxxx",
+    value: "+62 819-1660-8880",
   },
   {
     id: 4,
     title: "Biaya Pendaftaran ",
-    value: "Rp.200.000,- per jenis lomba",
+    value: "Rp.300.000,- per jenis lomba",
   },
 ];
 
@@ -243,7 +240,6 @@ function Competition() {
               <div>
                 <h1 className="font-bold text-xl mt-2">{item.name}</h1>
                 <ul className="list-disc pl-5 font-semibold md:mt-2">
-                  <li className="text-lg">{item.biaya}</li>
                   <li className="text-lg">{item.benefit1}</li>
                   <li className="text-lg">{item.benefit2}</li>
                   <li className="text-lg">{item.benefit3}</li>
