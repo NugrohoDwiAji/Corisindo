@@ -19,7 +19,7 @@ const menu = [
 ];
 
 const kontak = [
-  { name: "+62 8810-3839-1415", icon: <Phone size={17} />, url: "https://wa.me/+62881038391415" },
+  { name: "+62 877-8067-0808", icon: <Phone size={17} />, url: "https://wa.me/+6287780670808" },
   { name: "Baiq Yulia Hasni Pratiwi, S.Si., M.Sc", icon: <User size={17} />, url: "" },
   {
     name: "corisindo2025@universitasbumigora.ac.id",

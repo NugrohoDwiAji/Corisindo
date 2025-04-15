@@ -17,7 +17,7 @@ const informasiPendaftaranSeminar = [
   {
     id: 3,
     title: "Phone ",
-    value: "+62 8810-3839-1415",
+    value: "+62 877-8067-0808",
   },
 ];
 
