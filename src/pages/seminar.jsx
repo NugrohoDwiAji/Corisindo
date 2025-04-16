@@ -299,7 +299,7 @@ export default function Seminar() {
         <hr className="my-10 text-gray-400" />
         <div className="justify-center flex flex-col items-center mt-10">
           <TitleLine title="Submission and Template" />
-          <div className="flex mt-5 md:gap-10 lg:gap-16">
+          <div className="flex mt-5 md:gap-10 lg:gap-16 flex-wrap gap-3 justify-center">
             <LinkBar
               url="\file\Template-Penelitian-Semnas-Corisindo.docx"
               title="Template Artikel"
