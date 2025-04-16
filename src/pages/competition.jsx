@@ -70,8 +70,18 @@ const informasiPendaftaran = [
 const dataInformasidanFile = [
   {
     id: 1,
+    title: "Surat Pernyataan Keaslian Karya",
+    url: "/file/SURAT-PERNYATAAN-KEASLIAN-KARYA.docx",
+  },
+  {
+    id: 2,
+    title: "Surat Rekomendasi",
+    url: "/file/SURAT-REKOMENDASI.docx",
+  },
+  {
+    id: 3,
     title: "Link Pendaftaran Lomba",
-    url: "#",
+    url: "https://bit.ly/CorisIndoUBG2025",
   },
 ];
 
@@ -261,7 +271,7 @@ function Competition() {
         {/* Informasi dan file */}
         <div className="flex flex-col items-center gap-5">
           <TitleLine title="Informasi dan File" />
-          <div>
+          <div className="flex flex-wrap lg:gap-5 gap-3 justify-center ">
             {dataInformasidanFile.map((item, index) => (
               <LinkBar key={index} url={item.url} title={item.title} />
             ))}

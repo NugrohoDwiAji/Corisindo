@@ -43,7 +43,7 @@ export default function Pendaftaran() {
             <li>
               Pendaftaran SEMNAS CORISINDOO (Peserta Pemakalah dan
               Non-Pemakalah) dapat dilakukan pada link berikut:{" "}
-              <Link to={"#"} className="text-blue-600 font-semibold">
+              <Link to={"/kegiatan/seminar/#daftarseminar"} className="text-blue-600 font-semibold">
                 Klik Di Sini
               </Link>
             </li>

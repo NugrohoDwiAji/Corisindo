@@ -278,7 +278,7 @@ export default function Seminar() {
           <div className="hidden lg:block  border-l-2 border-gray-300"></div>
 
           {/* Informasi Pembayaran*/}
-          <div className="flex flex-col items-center">
+          <div  id="daftarseminar"  className="flex flex-col items-center">
             <TitleLine title="Informasi Pembayaran" />
             <div className="w-full flex flex-col items-center">
               <h1 className="font-semibold text-lg my-2 md:text-2xl">
