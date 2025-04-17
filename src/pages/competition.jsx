@@ -24,23 +24,23 @@ const dataJuara = [
   {
     id: 1,
     name: "Juara 1",
-    benefit1: "e-certificate",
-    benefit2: "Paper terpilih akan terbit di Jurnal Terindeks SINTA",
-    benefit3: "Best Paper dan Best Presenter",
+    benefit1: "Rp. 1.000.000,-",
+    benefit2: "e-certificate",
+    benefit3: "Plakat",
   },
   {
     id: 2,
     name: "Juara 2",
-    benefit1: "e-certificate",
-    benefit2: "Paper terpilih akan terbit di Jurnal Terindeks SINTA",
-    benefit3: "Best Paper dan Best Presenter",
+    benefit1: "Rp. 750.000,-",  
+    benefit2: "e-certificate",
+    benefit3: "Plakat",
   },
   {
     id: 3,
     name: "Juara 3",
-    benefit1: "e-certificate",
-    benefit2: "Paper terpilih akan terbit di Jurnal Terindeks SINTA",
-    benefit3: "Best Paper dan Best Presenter",
+    benefit1: "Rp. 500.000,-",
+    benefit2: "e-certificate",
+    benefit3: "Plakat",
   },
 ];
 
@@ -244,8 +244,8 @@ function Competition() {
 
         {/* Benefit Pemenang Corisindo Competition*/}
         <div className="flex flex-col items-center">
-          <TitleLine title="Benefit Pemenang Corisindo Competition" />
-          <div className="w-full md:flex justify-between mt-5">
+          <TitleLine title="Biaya Pembinaan Pemenang Corisindo Competition" />
+          <div className="w-full md:flex justify-evenly mt-5">
             {dataJuara.map((item) => (
               <div>
                 <h1 className="font-bold text-xl mt-2">{item.name}</h1>
