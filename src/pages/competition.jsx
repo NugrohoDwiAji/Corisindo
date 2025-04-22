@@ -82,7 +82,11 @@ const dataInformasidanFile = [
     id: 3,
     title: "Link Pendaftaran Lomba",
     url: "https://bit.ly/CorisIndoUBG2025",
-  },
+  },{
+    id: 4,
+    title: "Petunjuk Teknis Setiap Lomba",
+    url: "https://bit.ly/PanduanLombaCorisindo2025",
+  }
 ];
 
 const competition = [
